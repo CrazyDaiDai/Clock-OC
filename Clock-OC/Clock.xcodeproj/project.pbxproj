@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		086E8F091F25CAFD0048AA58 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 086E8F081F25CAFD0048AA58 /* clock.png */; };
 		08C73B641F21F63200CC31CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C73B631F21F63200CC31CB /* main.m */; };
 		08C73B671F21F63200CC31CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C73B661F21F63200CC31CB /* AppDelegate.m */; };
 		08C73B6A1F21F63200CC31CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C73B691F21F63200CC31CB /* ViewController.m */; };
 		08C73B6D1F21F63200CC31CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C73B6B1F21F63200CC31CB /* Main.storyboard */; };
 		08C73B6F1F21F63200CC31CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08C73B6E1F21F63200CC31CB /* Assets.xcassets */; };
 		08C73B721F21F63200CC31CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C73B701F21F63200CC31CB /* LaunchScreen.storyboard */; };
-		08C73B7A1F21F64B00CC31CB /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C73B791F21F64B00CC31CB /* clock.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		086E8F081F25CAFD0048AA58 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
 		08C73B5F1F21F63200CC31CB /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C73B631F21F63200CC31CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		08C73B651F21F63200CC31CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,7 +28,6 @@
 		08C73B6E1F21F63200CC31CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08C73B711F21F63200CC31CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08C73B731F21F63200CC31CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		08C73B791F21F64B00CC31CB /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				08C73B681F21F63200CC31CB /* ViewController.h */,
 				08C73B691F21F63200CC31CB /* ViewController.m */,
 				08C73B6B1F21F63200CC31CB /* Main.storyboard */,
-				08C73B791F21F64B00CC31CB /* clock.png */,
+				086E8F081F25CAFD0048AA58 /* clock.png */,
 				08C73B6E1F21F63200CC31CB /* Assets.xcassets */,
 				08C73B701F21F63200CC31CB /* LaunchScreen.storyboard */,
 				08C73B731F21F63200CC31CB /* Info.plist */,
@@ -141,7 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08C73B7A1F21F64B00CC31CB /* clock.png in Resources */,
+				086E8F091F25CAFD0048AA58 /* clock.png in Resources */,
 				08C73B721F21F63200CC31CB /* LaunchScreen.storyboard in Resources */,
 				08C73B6F1F21F63200CC31CB /* Assets.xcassets in Resources */,
 				08C73B6D1F21F63200CC31CB /* Main.storyboard in Resources */,
@@ -316,6 +316,7 @@
 				08C73B781F21F63200CC31CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
